@@ -23,7 +23,7 @@
 
 			<% @urls.each do |x| %>
 			<tr>
-				<td><a target=“_blank” href="<%= x.short_url%>"><%= x.short_url %></a></td>
+				<td><a class="link" target=“_blank” href="<%= x.short_url %>"><%= x.short_url %></a></td>
 				<td><%= x.long_url %></td>
 				<td><%= x.click_count %></td>
 			</tr>

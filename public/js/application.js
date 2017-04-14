@@ -1,4 +1,12 @@
 $(document).ready(function(){
+
+	$('.link').on('click', function(e){
+		var target = $(e.target).parent().siblings().last()
+		var num = parseInt(target.text()) + 1
+		//target.text is the click counter number
+		target.text(num)
+	})
+
 	$('form').submit(function(event){
 		event.preventDefault();
 		//to prevent it form going to sever to find normal routes
@@ -31,4 +39,7 @@ $(document).ready(function(){
 			}
 		})
 	})
+
+
+
 })
