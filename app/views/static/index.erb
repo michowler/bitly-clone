@@ -1,2 +1,33 @@
-<h1>Hello World</h1>
-<p>See Me in views/static/index.html.erb</p>
+<p id="logo">Short.Links</p>
+	<h1>Short.Links</h1>
+		<p>create the links of your dreams</p>
+
+<form id="form" action="/urls" method="post" align="center">
+  <input type="text" name="long_url" placeholder="Paste a link here">
+  <input type="submit" value="CREATE!">
+</form>
+
+<p><%= @err %></p>
+<!-- <div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+  <strong><%# @err %></strong> 
+</div> -->
+
+	<table>
+			<tr>
+				<th>S.Links</th>
+				<th>Original Links</th>
+				<th>Click Count</th>
+			</tr>
+
+
+			<% @urls.each do |x| %>
+			<tr>
+				<td><a target=“_blank” href="<%= x.short_url%>"><%= x.short_url %></a></td>
+				<td><%= x.long_url %></td>
+				<td><%= x.click_count %></td>
+			</tr>
+			<% end %>
+	</table>
+
+<p id="bottom_logo">created by Michelle Ler</p>

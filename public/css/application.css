@@ -1,0 +1,150 @@
+#logo {
+
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 30px;
+	color: #FF6347;
+	font-family : Courier;
+	text-align: left;
+    font-family: 'Pacifico', cursive;
+
+}
+
+body {
+
+    padding-bottom: 30px;
+}
+
+
+p {
+
+	color: white;
+	font-family : Courier;
+	text-align: center;
+}
+
+h1 {
+
+	margin-top: 30px;
+	color: white;
+	font-family : Courier;
+	text-align: center;
+	font-size: 80px;
+	font-family: 'Nunito', sans-serif;
+}
+
+#form {
+
+	display: block;
+	margin:auto;
+	
+}
+
+input[type=text] {
+
+    appearance: textfield;
+    font-size: 15px;
+    font-family : Courier;
+    border: solid 2px #CCC;
+    height: 50px;
+    width: 700px;
+    font-size: 20px;
+    color: #999;
+    padding-left: 5px;
+    vertical-align: bottom;
+
+}
+
+input[type=submit] {
+
+    font-family: 'Nunito', sans-serif;
+    height: 50px;
+    width: 80px;
+    cursor: pointer;
+    font-size: 11pt;
+    font-weight: bold;
+     -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    background-color: #FF6347;
+    color: white;
+    border: 2px solid white;
+
+}
+
+
+input[type=submit]:hover {
+
+    background-color: #3CB371;
+    color: white;
+
+}
+
+table {
+
+    /*display: block;*/
+    margin: auto;
+    border-collapse: collapse;
+    width: 80%;
+    background-color: white;
+
+}
+
+tbody {
+    margin: auto;
+}
+
+td {
+
+    text-align: left;
+    padding: 6px;
+    font-family: 'Nunito', sans-serif;
+    border-bottom: 1px solid #ddd;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+
+}
+
+th {
+
+	font-size: 20px;
+	font-weight: bold;
+    text-align: left;
+    padding-left: 10px;
+    font-family: 'Nunito', sans-serif;
+    border-bottom: 1px solid #ddd;
+
+}
+
+tr:hover {background-color: #90EE90}
+
+
+#background {
+
+    width: 100%; 
+    height: 100%; 
+    position: fixed; 
+    left: 0px; 
+    top: 0px; 
+    z-index: -1; /* Ensure div tag stays behind content; -999 might work, too. */
+
+}
+
+.stretch {
+
+    width:100%;
+    height:100%;
+
+}
+
+#bottom_logo {
+
+    padding-top: 290px;
+    font-size: 20px;
+    color: #FF6347;
+    font-family : Courier;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+
+}
+
