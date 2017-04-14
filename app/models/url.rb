@@ -1,4 +1,3 @@
-require 'SecureRandom'
 #https://github.com/jforaker/Ritly/blob/master/app/models/url.rb
 class Url < ActiveRecord::Base
 	# This is Sinatra! Remember to create a migration

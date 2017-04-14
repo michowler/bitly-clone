@@ -16,10 +16,11 @@ require 'logger'
 	# sinatra
 require 'sinatra'
 require "sinatra/reloader" if development?
-require 'byebug'
+# require 'byebug'
 	# embedded ruby
 require 'erb'
 require 'uri'
+require 'SecureRandom'
 ######################################################################
 
 
